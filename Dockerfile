@@ -19,7 +19,7 @@ RUN python3.9 -m venv ${VIRTUAL_ENV}
 ENV PATH="${VIRTUAL_ENV}/bin:${PATH}"
 
 RUN python3.9 -m pip install -U pip setuptools wheel && \
-    python3.9 -m pip install -U Red-DiscordBot==3.4.16
+    python3.9 -m pip install -U Red-DiscordBot==3.4.17
 
 # VOLUME ["/root/.local/share/Red-DiscordBot/data/", "/root/.config/Red-DiscordBot/"]
 
